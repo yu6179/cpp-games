@@ -1,0 +1,26 @@
+# 编译产物
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# IDE / 工具缓存（体积大，不应进仓库）
+.vs/
+.vscode/
+.idea/
+.workbuddy/
+
+# 运行日志与预览图
+*.log
+*.bmp
+
+# 本地第三方 SDK：EasyX 请自行安装，构建脚本中的路径按需修改
+_easyx/
+
+# 系统文件
+Thumbs.db
+desktop.ini
